@@ -1,0 +1,61 @@
+body {
+  background: #eee;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #343434;
+}
+
+#container,
+#message {
+  width: 40%;
+}
+
+#container,
+#main,
+#message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main {
+  flex-direction: row;
+  width: 100%;
+}
+
+#container * {
+  display: block;
+  padding: 10px;
+}
+
+#container input,
+#register {
+  position: relative;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background: rgb(241, 241, 179);
+  border: 2px solid #bd8132;
+}
+
+#container h3 {
+  color: #bd8132;
+}
+
+#container #register {
+  margin: 20px;
+  background: rgb(116, 167, 242);
+  cursor: pointer;
+}
+
+#message {
+  height: 500px;
+  color: #455;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  font-size: 30px;
+}
+.error {
+  background: rgb(227, 151, 151);
+}
+.verif {
+  background: rgb(139, 211, 139);
+}
