@@ -9,10 +9,6 @@ Petit exercice de formulaire de vérification avant envoi réalisé dans le cadr
 2. Ouvrez index.html dans votre navigateur.
 3. Remplissez les champs et soumettez pour voir la vérification en action.
 
-## Utilisation
-
-Ouvrez le fichier `index.html` dans votre navigateur pour accéder au site.
-
 ## Contributeurs
 
 Ce projet a été développé par Hakim Saoudi dans le cadre de sa formation de concepteur développeur d'application.
